@@ -41,8 +41,13 @@ This repository (skills-tracker-01) is the same project as skills-tracker. The d
   - I think I'm starting to get it. Express seems to have some similarities to SQL and PHP (CRUD), which I'm a bit more familiar with.
 
 - First try of running the application ended in a connection to database error.
+
   - I looked more closely into the Atlas_URI variable in config.env and corrected the password.
   - But the problem now is that, when I run the app, I don't see the console.log() that I'm supposed to see. Maybe because my MongoDB Atlas database is not called "employees" which appears to be specified in the guide's code.
   - Apparently I don't have a database jet, lol.
   - I downloaded a few sample databases, and changed the ATLAS_URI variable so that it has one of the databases included. Still doesn't show the expected log.
   - Kept trying for a while looking at the code in conn.js, config.env, record.js and server.js. Still not figured out but will keep going to see when I will meet the problem again in another process.
+
+- Commited conn.js with the my database user private password to github, smh.
+  - Immidiatly changed the password.
+  - Added the file containing the connection string to the .gitignore file.
