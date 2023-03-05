@@ -32,4 +32,17 @@ This repository (skills-tracker-01) is the same project as skills-tracker. The d
   - Found a great guide in the MongoDB website for creating a MERN Stack Application. It organizes the directory in two parts: server and client. Found this an excellent way to organize the project, to do so I will have to create a new repository (skills-tracker-02). Since I'm only in the setting up part, it won't be to much trouble.
 
 - Messed up and didn't include .git ignore before using create-react-app and npm install
+
   - I will start again with skills-tracker-03
+
+- Following the MERN Stack guide I created a MongoDB Atlas Cluster and connected it to the skills-tracker app. The obsctable is unfamiliarity with the technology (MongoDB, Atlas, and backend in general), I can't understand most of the code I'm writting.
+
+  - I expect to learn as I work on the creation of the app.
+  - I think I'm starting to get it. Express seems to have some similarities to SQL and PHP (CRUD), which I'm a bit more familiar with.
+
+- First try of running the application ended in a connection to database error.
+  - I looked more closely into the Atlas_URI variable in config.env and corrected the password.
+  - But the problem now is that, when I run the app, I don't see the console.log() that I'm supposed to see. Maybe because my MongoDB Atlas database is not called "employees" which appears to be specified in the guide's code.
+  - Apparently I don't have a database jet, lol.
+  - I downloaded a few sample databases, and changed the ATLAS_URI variable so that it has one of the databases included. Still doesn't show the expected log.
+  - Kept trying for a while looking at the code in conn.js, config.env, record.js and server.js. Still not figured out but will keep going to see when I will meet the problem again in another process.
