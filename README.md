@@ -50,4 +50,4 @@ This repository (skills-tracker-01) is the same project as skills-tracker. The d
 
 - Commited conn.js with the my database user private password to github, smh.
   - Immidiatly changed the password.
-  - Added the file containing the connection string to the .gitignore file.
+  - Added the file containing the connection string to the .gitignore file and deleted it from the git repository.
