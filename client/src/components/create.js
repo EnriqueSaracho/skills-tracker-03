@@ -38,6 +38,7 @@ export default function Create() {
     navigate("/");
   }
 
+  // This following section will display the form that takes the input from the user.
   return (
     <div>
       <h3>Create New Record</h3>
@@ -46,10 +47,10 @@ export default function Create() {
           <label htmlFor="name">Name</label>
           <input
             type="text"
-            classname="form-control"
+            className="form-control"
             id="name"
             value={form.name}
-            onChange={(e) => updateForm({ position: e.target.value })}
+            onChange={(e) => updateForm({ name: e.target.value })}
           />
         </div>
         <div className="form-group">
@@ -74,6 +75,20 @@ export default function Create() {
               onChange={(e) => updateForm({ level: e.target.value })}
             />
             <label htmlFor="positionIntern" className="form-check-label">
+              Intern
+            </label>
+          </div>
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="positionOptions"
+              id="positionJunior"
+              value="Junior"
+              checked={form.level === "Junior"}
+              onChange={(e) => updateForm({ level: e.target.value })}
+            />
+            <label htmlFor="positionJunior" className="form-check-label">
               Junior
             </label>
           </div>
