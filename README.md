@@ -47,6 +47,7 @@ This repository (skills-tracker-01) is the same project as skills-tracker. The d
   - Apparently I don't have a database jet, lol.
   - I downloaded a few sample databases, and changed the ATLAS_URI variable so that it has one of the databases included. Still doesn't show the expected log.
   - Kept trying for a while looking at the code in conn.js, config.env, record.js and server.js. Still not figured out but will keep going to see when I will meet the problem again in another process.
+  - Even though the same problem happens, decided to use a local database with MongoDB Compass.
 
 - Commited conn.js with the my database user private password to github, smh.
   - Immidiatly changed the password.
