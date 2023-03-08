@@ -50,5 +50,8 @@ This repository (skills-tracker-01) is the same project as skills-tracker. The d
   - Even though the same problem happens, decided to use a local database with MongoDB Compass.
 
 - Commited conn.js with the my database user private password to github, smh.
+
   - Immidiatly changed the password.
   - Added the file containing the connection string to the .gitignore file and deleted it from the git repository.
+
+- Finished the client portion of the document, still can't connect to database.
