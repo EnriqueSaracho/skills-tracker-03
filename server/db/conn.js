@@ -10,7 +10,6 @@ var _db;
 module.exports = {
   connectToServer: function (callback) {
     console.log("connectToServer works...");
-    console.log(client);
     client.connect((err, db) => {
       console.log("client.connect works...");
       // Verify we got a good "db" object
