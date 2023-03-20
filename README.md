@@ -2,7 +2,7 @@
 
 This repository (skills-tracker-01) is the same project as skills-tracker. The difference being that the latter was created first and started working on it with React. With this new version, the objective is to create an entire MERN (MongoDB, Express, React, Node.js) and will begin with the backend portion.
 
-## Obstacles
+## Obstacles/Log
 
 - Getting to add a list element to the list from the form in ToDoList.js
 
@@ -55,3 +55,5 @@ This repository (skills-tracker-01) is the same project as skills-tracker. The d
   - Added the file containing the connection string to the .gitignore file and deleted it from the git repository.
 
 - Finished the client portion of the document, still can't connect to database.
+
+- Decided to do other tutorials on MERN Stack apps get a different point of view
